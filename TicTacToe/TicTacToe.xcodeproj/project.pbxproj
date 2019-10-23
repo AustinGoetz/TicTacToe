@@ -14,6 +14,7 @@
 		2A4F9CC72360C45D00B69A2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A4F9CC52360C45D00B69A2B /* Main.storyboard */; };
 		2A4F9CC92360C45F00B69A2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A4F9CC82360C45F00B69A2B /* Assets.xcassets */; };
 		2A4F9CCC2360C45F00B69A2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A4F9CCA2360C45F00B69A2B /* LaunchScreen.storyboard */; };
+		2AD875232360FAB90038DCA5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD875222360FAB90038DCA5 /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2A4F9CC82360C45F00B69A2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A4F9CCB2360C45F00B69A2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A4F9CCD2360C45F00B69A2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AD875222360FAB90038DCA5 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				190D855A2360EAE6004EB0BA /* ModelControllers */,
+				2AD875212360FAB90038DCA5 /* ViewControllers */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -117,6 +120,15 @@
 			);
 			path = Views;
 			sourceTree = "<group>";
+		};
+		2AD875212360FAB90038DCA5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2AD875222360FAB90038DCA5 /* GameViewController.swift */,
+			);
+			name = ViewControllers;
+			path = TicTacToe/Controllers/ViewControllers;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -189,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AD875232360FAB90038DCA5 /* GameViewController.swift in Sources */,
 				190D855E2360F1E3004EB0BA /* TicTacToeController.swift in Sources */,
 				2A4F9CC02360C45D00B69A2B /* AppDelegate.swift in Sources */,
 				190D85572360D021004EB0BA /* TicTacToe.swift in Sources */,

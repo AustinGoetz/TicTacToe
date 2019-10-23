@@ -12,8 +12,20 @@ class TicTacToeController {
     
     static let shared = TicTacToeController()
     
-    func playerAt(row: Int, col: Int) -> String? {
+    var game = TicTacToe()
+    
+    func placePlayerAt(row: Int, col: Int) {
+        guard game.board[row][col] == .empty else {return}
+        game.board[row][col] = game.currentPlayer
+        if game.currentPlayer == .x {
+            game.currentPlayer = .o
+        } else {
+            game.currentPlayer = .x
+        }
+    
+    }
         
-        return board[row][col]
+    func resetButton() {
+        game = TicTacToe()
     }
 }

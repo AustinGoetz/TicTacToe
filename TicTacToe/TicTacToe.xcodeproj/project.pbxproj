@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		190D85572360D021004EB0BA /* ticTacToe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190D85562360D021004EB0BA /* ticTacToe.swift */; };
 		2A4F9CC02360C45D00B69A2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4F9CBF2360C45D00B69A2B /* AppDelegate.swift */; };
 		2A4F9CC22360C45D00B69A2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4F9CC12360C45D00B69A2B /* SceneDelegate.swift */; };
-		2A4F9CC42360C45D00B69A2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4F9CC32360C45D00B69A2B /* ViewController.swift */; };
 		2A4F9CC72360C45D00B69A2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A4F9CC52360C45D00B69A2B /* Main.storyboard */; };
 		2A4F9CC92360C45F00B69A2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A4F9CC82360C45F00B69A2B /* Assets.xcassets */; };
 		2A4F9CCC2360C45F00B69A2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A4F9CCA2360C45F00B69A2B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		190D85562360D021004EB0BA /* ticTacToe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ticTacToe.swift; sourceTree = "<group>"; };
 		2A4F9CBC2360C45D00B69A2B /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A4F9CBF2360C45D00B69A2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A4F9CC12360C45D00B69A2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2A4F9CC32360C45D00B69A2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2A4F9CC62360C45D00B69A2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A4F9CC82360C45F00B69A2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A4F9CCB2360C45F00B69A2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +37,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		190D85532360CFCE004EB0BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				190D85562360D021004EB0BA /* ticTacToe.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		190D85582360D060004EB0BA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2A4F9CC52360C45D00B69A2B /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		2A4F9CB32360C45D00B69A2B = {
 			isa = PBXGroup;
 			children = (
@@ -57,7 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				2A4F9CD42360C4AC00B69A2B /* Views */,
-				2A4F9CD52360C4B300B69A2B /* Controllers */,
+				190D85532360CFCE004EB0BA /* Models */,
 				2A4F9CD32360C4A300B69A2B /* Resources */,
 			);
 			path = TicTacToe;
@@ -78,17 +94,9 @@
 		2A4F9CD42360C4AC00B69A2B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2A4F9CC52360C45D00B69A2B /* Main.storyboard */,
+				190D85582360D060004EB0BA /* Storyboards */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		2A4F9CD52360C4B300B69A2B /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				2A4F9CC32360C45D00B69A2B /* ViewController.swift */,
-			);
-			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,8 +170,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A4F9CC42360C45D00B69A2B /* ViewController.swift in Sources */,
 				2A4F9CC02360C45D00B69A2B /* AppDelegate.swift in Sources */,
+				190D85572360D021004EB0BA /* ticTacToe.swift in Sources */,
 				2A4F9CC22360C45D00B69A2B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -25,7 +25,7 @@ class TicTacToeController {
     
     }
         
-    func resetButton() {
+    func reset() {
         game = TicTacToe()
     }
 }

@@ -9,9 +9,9 @@
 import Foundation
 
 enum Player: String {
-    case empty
+    case empty = ""
     case x = "X"
-    case o = "O"
+    case o = "〇"
 }
 
 class TicTacToe {
